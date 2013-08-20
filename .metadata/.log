@@ -116,3 +116,16 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2013-08-20 11:42:21.040 -----------------------------------------------
+eclipse.buildId=v21.0.0-531062
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CO
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product -data C:\Users\202\Documents\GitHub -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-08-20 11:42:26.687
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2013-08-20 11:42:53.022
+!MESSAGE DDMS files not found: C:\Users\Sergio\Desktop\adt-bundle-windows-x86_64-20130729\sdk\platform-tools\adb.exe C:\Users\Sergio\Desktop\adt-bundle-windows-x86_64-20130729\sdk\tools\hprof-conv.exe C:\Users\Sergio\Desktop\adt-bundle-windows-x86_64-20130729\sdk\tools\traceview.bat 
