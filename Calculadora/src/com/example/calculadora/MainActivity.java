@@ -11,44 +11,48 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 
 	
-	TextView tw;
-	EditText b0,b1,b2,b3,b4,b5,b,b6,b7,b8,b9;
-	int a1,a2,a3,a4,a5,a6,a7,a8,a9,a0;
-	int suma,resta,multiplicacion;
-	float division;
+	TextView tw1;
+	TextView tw2;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		tw= (TextView) this.findViewById(R.id.solucion);
-		
-		
-		b0 = (EditText) this.findViewById(R.id.num0);
-		b1 = (EditText) this.findViewById(R.id.num1);
-		b2 = (EditText) this.findViewById(R.id.num2);
-		b3 = (EditText) this.findViewById(R.id.num3);
-		b4 = (EditText) this.findViewById(R.id.num4);
-		b5 = (EditText) this.findViewById(R.id.num5);
-		b6 = (EditText) this.findViewById(R.id.num6);
-		b7 = (EditText) this.findViewById(R.id.num7);
-		b8 = (EditText) this.findViewById(R.id.num8);
-		b9 = (EditText) this.findViewById(R.id.num9);
-		/*a1 = Integer.parseInt(b1.getText().toString());
-		a2 = Integer.parseInt(b2.getText().toString());
-		suma=a1+a2;*/
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.layout.activity_main, menu);
+		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-	
-	public void metodo(View argu)
+		
+	public double suma(double num1, double num2)
 	{
-		tw.setText("Cambio el texto");
+		double suma=0;
+		suma= num1+num2;
+		return suma;
+	}
+	
+	public double division(double num1, double num2)
+	{
+		double division=0;
+		division=num1/num2;
+		return division;
+	}
+	
+	public double resta(double num1, double num2)
+	{
+		double resta=0;
+		resta=num1-num2;
+		return resta;
+	}
+	
+	public double multi(double num1, double num2)
+	{
+		double multi=0;
+		multi=num1*num2;
+		return multi;
 	}
 
 }
