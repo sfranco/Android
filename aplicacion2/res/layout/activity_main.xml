@@ -1,0 +1,49 @@
+
+<LinearLayout 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        
+    <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Suma de dos numeros"
+         android:id="@+id/aviso"
+         >
+        
+        </TextView>
+    
+     <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Sumando 1"
+         android:id="@+id/n1">
+         </EditText>
+
+     <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:text="Sumando 2" 
+         android:id="@+id/n2">
+
+         <requestFocus />
+     </EditText>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center_horizontal">
+         
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Aceptar" 
+         android:onClick="metodo"/>
+     
+     </LinearLayout>
+     	
+     
+     </LinearLayout>

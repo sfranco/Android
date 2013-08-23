@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 INDEX VERSION 1.126+C:\Users\Sergio\Documents\GitHub\Android\.metadata\.plugins\org.eclipse.jdt.core
 3217903255.index
 1650449417.index
 382860011.index
+=======
+INDEX VERSION 1.126+C:\Users\202\Documents\GitHub\.metadata\.plugins\org.eclipse.jdt.core
+>>>>>>> 82da79b20b8769c2866c6ab0e323d974fb28eba4
 3736710888.index
